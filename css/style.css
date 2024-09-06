@@ -10,111 +10,199 @@
         display: flex;
     }
 
+    #top-footer, #top-main, #midle-main1, #midle-main2, #midle-main3, #bottom-main {
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
 /* #endregion common*/
 
 
-/* #region degug */
-.debug * {
-    border: 2px dotted black
-}
-
-/*header debug*/
-
-.debug header {
-    background-color: red;
-}
+/* #region debug */
 
 
-.debug .login, .link, .logo {
-    background-color: chocolate;  
-}
+    .debug * {
+        border: 2px dotted black
+    }
 
 
-/*main debug*/
 
-.debug #top-main {
-    background-color: blue;
-}
 
-.debug .top-main-container {
-    background-color: rgb(15, 135, 172);
-    height: 400px;
-    width: 800px;
-}
 
-.debug #midle-main1 {
-    background-color: darkgray;
-}
 
-.debug #midle-main2 {
-    background-color: rgb(237, 243, 158);
-}
+    .debug header {
+        background-color: red;
+    }
 
-.debug #midle-main3 {
-    background-color: rgb(207, 25, 131);
-}
 
-.debug .left-square {
-    background-color: rgb(233, 128, 128);
-    height: 400px;
-    width: 600px;
-}
+    .debug .login {
+        background-color: chocolate;
+    }
 
-.debug .right-square {
-    background-color: rgb(23, 141, 63);
-    height: 400px;
-    width: 350px;
-}
+    .debug .link{
+        background-color: chocolate;
+    }
 
-.debug #bottom-main {
-    min-height: 500px;
-    background-color: rgba(206, 114, 9, 0.596);
-}
+    .debug .logo   {
+        background-color: chocolate;
+    }
 
-.debug .bottom-main-container {
-    background-color: rgb(92, 6, 27);
-    height: 700px;
-    width: 900px;
-}
+
+
+
+    .debug #top-main {
+        background-color: blue;
+    }
+
+    .debug .top-main-container {
+        background-color: rgb(15, 135, 172);
+        height: 400px;
+        width: 800px;
+    }
+
+    .debug #midle-main1 {
+        background-color: darkgray;
+    }
+
+    .debug #midle-main2 {
+        background-color: rgb(237, 243, 158);
+    }
+
+    .debug #midle-main3 {
+        background-color: rgb(207, 25, 131);
+    }
+
+    .debug .left-square {
+        background-color: rgb(233, 128, 128);
+        height: 400px;
+        width: 600px;
+    }
+
+    .debug .right-square {
+        background-color: rgb(23, 141, 63);
+        height: 400px;
+        width: 350px;
+    }
+
+    .debug #bottom-main {
+        min-height: 500px;
+        background-color: rgba(206, 114, 9, 0.596);
+    }
+
+    .debug .bottom-main-container {
+        background-color: rgb(92, 6, 27);
+        height: 700px;
+        width: 900px;
+    }
+
+
+
+
+
+    .debug footer {
+        min-height: 50px;
+        background-color: rgb(84, 85, 77);
+    }
+
+    .debug #top-footer {
+
+        border-bottom: 1px solid white;
+    }
+
+    .debug .footer-left-square {
+        background-color: rgb(233, 128, 128);
+        height: 500px;
+        width: 300px;
+    }
+
+    .debug .footer-right-square {
+        background-color: rgb(23, 141, 63);
+        height: 500px;
+        width: 200px;
+        border: 2px dotted rgb(255, 255, 255)
+    }
+
+    .debug .bottom-footer-container {
+        background-color: burlywood;
+
+    }
+
+    .debug .bottone{
+        background-color: brown;
+    }
+
+    .debug .logo-footer {
+        background-color: brown;
+    }
+
 
 /* #endregion debug*/
 
 
 
-/* #region header */
-.header-container {
-    justify-content: center;
-    padding: 5px;
-}
 
-.link {
-    padding-left: 20%;
-    padding-right: 20%;
-}
 
-.logo, .login {
-    padding-right: 10%;
-}
 
-.login, .link, .logo {
+/* #region  header*/
 
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
+    .header-container {
+        justify-content: center;
+        padding: 5px;
+    }
 
-/* #endregion header*/
+    .link {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .logo {
+        padding-right: 10%;
+    }
+
+    .login {
+        padding-left: 10%;
+    }
+
+    .login, .link, .logo {
+
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+/* #endregion  header*/
 
 
 
 /* #region main */
-.top-main-container {
-    border-radius: 10px;
-}
 
-#top-main, #midle-main1, #midle-main2, #midle-main3, #bottom-main {
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-}
+    .top-main-container {
+        border-radius: 10px;
+        
+    }
 
-/* #endregion */
+/* #endregion main*/
+
+
+
+
+/* #region footer */
+
+    #bottom-footer {
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .bottom-footer-container {
+        width: 80%;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .bottone,
+    .logo-footer {
+        padding: 0.2rem;
+    }
+
+/* #endregion footer*/
