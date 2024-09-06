@@ -22,8 +22,9 @@
 /* #region debug */
 
 
-    .debug * {
-        border: 2px dotted black
+    .debug *{
+        border: 1px dashed black;
+        
     }
 
 
@@ -119,7 +120,7 @@
         background-color: rgb(23, 141, 63);
         height: 500px;
         width: 200px;
-        border: 2px dotted rgb(255, 255, 255)
+        border: 1px Dashed  rgb(255, 255, 255)
     }
 
     .debug .bottom-footer-container {
