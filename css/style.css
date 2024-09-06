@@ -11,3 +11,47 @@
     }
 
 /* #endregion common*/
+
+
+/* #region degug */
+.debug * {
+    border: 2px dotted black
+}
+
+/*header debug*/
+
+.debug header {
+    background-color: red;
+}
+
+
+.debug .login, .link, .logo {
+    background-color: chocolate;
+}
+/* #endregion debug*/
+
+
+/* #region header */
+.header-container {
+    justify-content: center;
+    padding: 5px;
+}
+
+
+.link {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.logo, .login {
+    padding-right: 10%;
+}
+
+.login, .link, .logo {
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+/* #endregion header*/
