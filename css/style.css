@@ -26,9 +26,59 @@
 
 
 .debug .login, .link, .logo {
-    background-color: chocolate;
+    background-color: chocolate;  
 }
+
+
+/*main debug*/
+
+.debug #top-main {
+    background-color: blue;
+}
+
+.debug .top-main-container {
+    background-color: rgb(15, 135, 172);
+    height: 400px;
+    width: 800px;
+}
+
+.debug #midle-main1 {
+    background-color: darkgray;
+}
+
+.debug #midle-main2 {
+    background-color: rgb(237, 243, 158);
+}
+
+.debug #midle-main3 {
+    background-color: rgb(207, 25, 131);
+}
+
+.debug .left-square {
+    background-color: rgb(233, 128, 128);
+    height: 400px;
+    width: 600px;
+}
+
+.debug .right-square {
+    background-color: rgb(23, 141, 63);
+    height: 400px;
+    width: 350px;
+}
+
+.debug #bottom-main {
+    min-height: 500px;
+    background-color: rgba(206, 114, 9, 0.596);
+}
+
+.debug .bottom-main-container {
+    background-color: rgb(92, 6, 27);
+    height: 700px;
+    width: 900px;
+}
+
 /* #endregion debug*/
+
 
 
 /* #region header */
@@ -36,7 +86,6 @@
     justify-content: center;
     padding: 5px;
 }
-
 
 .link {
     padding-left: 20%;
@@ -51,7 +100,21 @@
 
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-
 }
 
 /* #endregion header*/
+
+
+
+/* #region main */
+.top-main-container {
+    border-radius: 10px;
+}
+
+#top-main, #midle-main1, #midle-main2, #midle-main3, #bottom-main {
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+/* #endregion */
