@@ -43,6 +43,7 @@
 
     .debug .link{
         background-color: chocolate;
+        width: 500px;
     }
 
     .debug .logo   {
@@ -153,7 +154,7 @@
     }
 
     .link {
-        width: 500px;
+        
         text-align: center;
     }
 
